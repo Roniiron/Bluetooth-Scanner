@@ -1,0 +1,129 @@
+/* 
+  Localizable.strings
+  Bluetooth Scanner
+  
+  English localization strings
+*/
+
+// MARK: - App States
+"app.readyToScan" = "Ready to Scan";
+"app.scanning" = "Scanning for Devices...";
+"app.noDevicesFound" = "No Devices Found";
+"app.scanningStatus" = "Scanning";
+"app.notScanning" = "Not Scanning";
+
+// MARK: - Bluetooth States
+"bluetooth.poweredOff" = "Bluetooth is Off";
+"bluetooth.unauthorized" = "Bluetooth Access Denied";
+"bluetooth.unsupported" = "Bluetooth Not Supported";
+"bluetooth.resetting" = "Bluetooth Resetting";
+"bluetooth.unknown" = "Bluetooth Unknown";
+
+// MARK: - Device Information
+"device.unknown" = "Unknown";
+"device.connected" = "Connected";
+"device.disconnected" = "Disconnected";
+"device.connecting" = "Connecting";
+"device.discoveringServices" = "Discovering Services";
+"device.interrogating" = "Interrogating Device";
+"device.notConnectable" = "Not Connectable";
+"device.identifier" = "Identifier";
+"device.uuid" = "UUID";
+"device.signalStrength" = "Signal Strength";
+"device.rssi" = "RSSI";
+"device.name" = "Name";
+"device.connectable" = "Connectable";
+"device.txPower" = "TX Power";
+"device.manufacturerData" = "Manufacturer Data";
+"device.lastSeen" = "Last Seen";
+"device.lost" = "Lost";
+"device.yes" = "Yes";
+"device.no" = "No";
+"device.servicesCount" = "%d service%@";
+
+// MARK: - Actions
+"action.startScanning" = "Start Scanning";
+"action.stopScanning" = "Stop Scanning";
+"action.connect" = "Connect";
+"action.disconnect" = "Disconnect";
+"action.viewFullDetails" = "View Full Details";
+"action.done" = "Done";
+"action.openSettings" = "Open Settings";
+"action.enableBluetooth" = "Enable Bluetooth";
+"action.sort" = "Sort";
+"action.filter" = "Filter";
+"action.read" = "Read";
+"action.notify" = "Notify";
+"action.refresh" = "Refresh";
+
+// MARK: - Filter & Sort
+"filter.title" = "Filter Devices";
+"filter.minimumSignalStrength" = "Minimum Signal Strength";
+"filter.bySignalStrength" = "Filter by Signal Strength";
+"filter.showStrongSignals" = "Show only devices with strong signals";
+"filter.weak" = "Weak";
+"filter.strong" = "Strong";
+"filter.infoMessage" = "Filtering helps you focus on nearby devices with stronger connections";
+"filter.statusFormat" = "Filtered: ≥%d dB (%d bars)";
+
+// MARK: - Messages
+"message.readyToScan" = "Tap 'Start Scanning' to discover nearby Bluetooth devices";
+"message.scanning" = "Looking for nearby Bluetooth devices...";
+"message.bluetoothOff" = "Please turn on Bluetooth in Settings to scan for devices";
+"message.bluetoothUnauthorized" = "Please allow Bluetooth access in Settings to scan for devices";
+"message.bluetoothUnsupported" = "This device does not support Bluetooth Low Energy";
+"message.bluetoothResetting" = "Bluetooth is resetting. Please wait and try again";
+"message.bluetoothUnknown" = "Bluetooth state is unknown. Please wait and try again";
+"message.noDevicesScan" = "No nearby devices were found during the last scan";
+"message.pullToRefreshScan" = "Pull down to rescan";
+"message.pullToRefreshCancel" = "Pull down to cancel scanning";
+
+// MARK: - Device Details
+"details.deviceInfo" = "Device Information";
+"details.advertisementData" = "Advertisement Data";
+"details.services" = "Services";
+"details.characteristics" = "Characteristics";
+"details.serviceUuids" = "Service UUIDs";
+"details.rawData" = "Raw Data";
+"details.discoverCharacteristics" = "Discover Characteristics";
+"details.discovering" = "Discovering...";
+"details.deviceDetails" = "Device Details";
+"details.serviceUuid" = "Service UUID";
+"details.characteristicUuid" = "UUID";
+"details.currentValue" = "Current Value";
+"details.noServicesDiscovered" = "No services discovered";
+"details.characteristicsDiscovered" = "%d characteristic%@ discovered";
+"details.noManufacturerData" = "No manufacturer data";
+"details.viewServices" = "View Services";
+"details.noServices" = "No services";
+"details.oneService" = "1 service";
+"details.multipleServices" = "%d services";
+"details.noCharacteristics" = "No characteristics";
+"details.oneCharacteristic" = "1 characteristic";
+"details.multipleCharacteristics" = "%d characteristics";
+"details.noCharacteristicsDiscovered" = "No characteristics discovered";
+"details.noCharacteristicsDiscoveredDescription" = "This service doesn't have any discoverable characteristics.";
+"details.noServicesDiscoveredDescription" = "This device doesn't have any discoverable services or the connection was lost.";
+"details.deviceList" = "Device List";
+"details.services" = "Services";
+"details.deviceDisconnected" = "Device Disconnected";
+"details.reconnect" = "Reconnect";
+"details.cancel" = "Cancel";
+"details.reconnecting" = "Reconnecting to device...";
+"details.reconnectMessage" = "Device has been disconnected. Would you like to reconnect?";
+"details.reconnectFailed" = "Failed to reconnect to device. Please return to device list and try again.";
+
+// Characteristic Operations
+"characteristic.read" = "Read Value";
+"characteristic.write" = "Write Value";
+"characteristic.notify" = "Subscribe";
+"characteristic.readSuccess" = "Value read successfully";
+"characteristic.writeSuccess" = "Value written successfully";
+"characteristic.notifySuccess" = "Notifications enabled";
+"characteristic.operationFailed" = "Operation failed";
+
+// MARK: - Search
+"search.placeholder" = "Search peripheral by name";
+
+// MARK: - Errors
+"error.unknown" = "Unknown error";

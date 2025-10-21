@@ -1,0 +1,15 @@
+# SwiftGen Configuration for Bluetooth Scanner
+# This file configures SwiftGen to generate Swift code from your project resources
+
+# Output directory for generated files
+output_dir: "Bluetooth Scanner/Generated"
+
+# Strings (Localization)
+strings:
+  inputs:
+    - "Bluetooth Scanner/Resources/Localization/Localizable.strings"
+  outputs:
+    - templateName: "structured-swift5"
+      output: "Strings.swift"
+      params:
+        publicAccess: true
